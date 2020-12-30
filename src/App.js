@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import portfolio from './portfolio.json'
+import RepoLinks from './components/Repositories'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Header />
         <About />
         {portfolio.map( portfolios => <Portfolio key={portfolios.id} {...portfolios}/>)}
+        <RepoLinks />
         <Contact />
         <Footer />
       </div>

@@ -13,6 +13,7 @@ function Portfolio(props) {
                         <div className="middle">
                             <h4 className="text">{props.title}</h4>
                             <p className="text">{props.category}</p>
+                        
                         </div>
                     </a>
                 </div>
