@@ -1,7 +1,8 @@
 # 20: React Portfolio
 ## Description
 Update portfolio using react 
- 
+ ## Deploymemt
+ <a href="https://myreactportfolioapp.herokuapp.com/">Click here to view my portfolio!</a>
 ## Requirements
 
 * Updated portfolio featuring 6 total projects
