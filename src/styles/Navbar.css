@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet');
+
+.navbar {
+    background:  rgba(32, 1, 23, 0.849);
+    height: 60px;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'Wallpoet', Arial, Helvetica, serif, sans-serif;
+    text-decoration: none;
+    margin: 10px 5px;
+}  
+
+.navbar a:hover {
+    color: #5bc0de;
+}
+
+.navbar .scrolldown a {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -29px;
+	color: #fff;
+	display: block;
+	height: 42px;
+	width: 42px;
+	font-size: 42px;
+	line-height: 42px;
+	color: #fff;
+	border-radius: 100%;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
